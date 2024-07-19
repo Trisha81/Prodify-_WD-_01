@@ -1,0 +1,131 @@
+/* Custom CSS for the app landing page */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-family: "Playfair Display", serif;  
+}
+/* Header Section */
+header{
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
+header, footer{
+    background-color: rgb(238, 107, 128);
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-brand img{
+    width: 30%;
+    height: 30%;
+}
+.nav-link:hover{
+    color: yellow;
+}
+/* Hero Section */
+.hero{
+    text-align: center;
+}
+.hero .row{
+    display: flex;
+    align-items: center;
+}
+.hero h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 50px;
+}
+.hero p{
+    font-family: "Lobster Two", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(238, 107, 128);
+}
+/* Features Section */
+.features {
+    background-color: pink;
+    text-align: center;
+   
+}
+.features .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-img img, .orders-img img, .account-img img, #about img{
+width: 200px;
+height: 100%;
+}
+
+/* Testimonials Section */
+.card-footer{
+    text-align: right;
+}
+
+.card-text {
+    font-style: italic;
+}
+
+/* Download/Signup Section */
+#download {
+    background-color: pink;
+    text-align: center;
+}
+#download img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+/* FAQ Section */
+#faq{
+    display: flex;
+    justify-content: center;
+}
+.accordion-button {
+    background-color: pink;
+    
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* About Section */
+#about {
+    background-color: pink;
+    text-align: center;
+}
+#about p{
+    text-align: justify;
+}
+/* Contact Section */
+#contact .row{
+    display: flex;
+    align-items: center;
+   text-align: center;
+}
+
+.btn:hover, .address i:hover {
+    background-color: rgb(254, 125, 147);
+    color: black;
+}
+.address li{
+    list-style: none;
+}
+.form, .address{
+    background-color: pink;
+}
+.contact-form p{
+    text-align: left;
+    color: red;
+}
+/* Footer Section */
+footer {
+    margin-bottom: 0;
+    
+}
+
